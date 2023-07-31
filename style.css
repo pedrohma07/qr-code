@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightGray: hsl(212, 45%, 89%);
+  --GrayishBlue: hsl(220, 15%, 55%);
+  --DarkBlue: hsl(218, 44%, 22%);
+
+  font-family: 'Outfit', sans-serif;
+}
+body{
+  background-color: var(--LightGray);
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container .block_code{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 25px;
+  align-items: center;
+  width: 250px;
+  padding: 20px;
+  background-color: var(--White);
+  color: var(--DarkBlue);
+  text-align: center;
+}
+
+.container .block_code img{
+  width: 100%;
+  border-radius: 20px;
+}
+.container .block_code h1{
+  font-weight: 700;
+  font-size: 20px;
+}
+.container .block_code p{
+  font-weight: 400;
+  font-size: 15px;
+  
+}
